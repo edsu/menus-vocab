@@ -5,41 +5,41 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://purl.org/menus#menuvocab> a skos:ConceptScheme ;
-    skos:hasTopConcept <http://purl.org/menus#foods> .
+<https://edsu.github.io/menus-vocab/menus.json#menuvocab> a skos:ConceptScheme ;
+    skos:hasTopConcept <https://edsu.github.io/menus-vocab/menus.json#foods> .
 
-<http://purl.org/menus#animals> a skos:Concept ;
-    skos:narrower <http://purl.org/menus#meat>,
-        <http://purl.org/menus#poultry>,
-        <http://purl.org/menus#seafood> ;
+<https://edsu.github.io/menus-vocab/menus.json#animals> a skos:Concept ;
+    skos:narrower <https://edsu.github.io/menus-vocab/menus.json#meat>,
+        <https://edsu.github.io/menus-vocab/menus.json#poultry>,
+        <https://edsu.github.io/menus-vocab/menus.json#seafood> ;
     skos:prefLabel "Animals" .
 
-<http://purl.org/menus#foods> a skos:Concept ;
-    skos:narrower <http://purl.org/menus#animals>,
-        <http://purl.org/menus#plants> ;
+<https://edsu.github.io/menus-vocab/menus.json#foods> a skos:Concept ;
+    skos:narrower <https://edsu.github.io/menus-vocab/menus.json#animals>,
+        <https://edsu.github.io/menus-vocab/menus.json#plants> ;
     skos:prefLabel "Foods" .
 
-<http://purl.org/menus#fruits> a skos:Concept ;
+<https://edsu.github.io/menus-vocab/menus.json#fruits> a skos:Concept ;
     skos:prefLabel "Fruits" .
 
-<http://purl.org/menus#grains> a skos:Concept ;
+<https://edsu.github.io/menus-vocab/menus.json#grains> a skos:Concept ;
     skos:prefLabel "Grains" .
 
-<http://purl.org/menus#meat> a skos:Concept ;
+<https://edsu.github.io/menus-vocab/menus.json#meat> a skos:Concept ;
     skos:prefLabel "Meat" .
 
-<http://purl.org/menus#plants> a skos:Concept ;
-    skos:narrower <http://purl.org/menus#fruits>,
-        <http://purl.org/menus#grains>,
-        <http://purl.org/menus#vegetables> ;
+<https://edsu.github.io/menus-vocab/menus.json#plants> a skos:Concept ;
+    skos:narrower <https://edsu.github.io/menus-vocab/menus.json#fruits>,
+        <https://edsu.github.io/menus-vocab/menus.json#grains>,
+        <https://edsu.github.io/menus-vocab/menus.json#vegetables> ;
     skos:prefLabel "Plants" .
 
-<http://purl.org/menus#poultry> a skos:Concept ;
+<https://edsu.github.io/menus-vocab/menus.json#poultry> a skos:Concept ;
     skos:prefLabel "Poultry" .
 
-<http://purl.org/menus#seafood> a skos:Concept ;
+<https://edsu.github.io/menus-vocab/menus.json#seafood> a skos:Concept ;
     skos:prefLabel "Seafood" .
 
-<http://purl.org/menus#vegetables> a skos:Concept ;
+<https://edsu.github.io/menus-vocab/menus.json#vegetables> a skos:Concept ;
     skos:prefLabel "Vegetables" .
 

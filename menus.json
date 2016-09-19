@@ -2,7 +2,7 @@
   "@context": {
     "dc": "http://purl.org/dc/terms/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "@base": "http://purl.org/menus"
+    "@base": "https://edsu.github.io/menus-vocab/menus.json"
   },
   "@id": "#menuvocab",
   "@type": "skos:ConceptScheme",

@@ -3,52 +3,52 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="http://purl.org/menus#foods">
-    <skos:narrower rdf:resource="http://purl.org/menus#plants"/>
-    <skos:narrower rdf:resource="http://purl.org/menus#animals"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Foods</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#fruits">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Fruits</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#animals">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:narrower rdf:resource="http://purl.org/menus#seafood"/>
-    <skos:narrower rdf:resource="http://purl.org/menus#meat"/>
-    <skos:narrower rdf:resource="http://purl.org/menus#poultry"/>
-    <skos:prefLabel>Animals</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#grains">
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#grains">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel>Grains</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#plants">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Plants</skos:prefLabel>
-    <skos:narrower rdf:resource="http://purl.org/menus#vegetables"/>
-    <skos:narrower rdf:resource="http://purl.org/menus#fruits"/>
-    <skos:narrower rdf:resource="http://purl.org/menus#grains"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#meat">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel>Meat</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#seafood">
-    <skos:prefLabel>Seafood</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#vegetables">
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#vegetables">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel>Vegetables</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#menuvocab">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:hasTopConcept rdf:resource="http://purl.org/menus#foods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/menus#poultry">
-    <skos:prefLabel>Poultry</skos:prefLabel>
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#foods">
+    <skos:prefLabel>Foods</skos:prefLabel>
+    <skos:narrower rdf:resource="https://edsu.github.io/menus-vocab/menus.json#animals"/>
+    <skos:narrower rdf:resource="https://edsu.github.io/menus-vocab/menus.json#plants"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#plants">
+    <skos:narrower rdf:resource="https://edsu.github.io/menus-vocab/menus.json#vegetables"/>
+    <skos:narrower rdf:resource="https://edsu.github.io/menus-vocab/menus.json#fruits"/>
+    <skos:prefLabel>Plants</skos:prefLabel>
+    <skos:narrower rdf:resource="https://edsu.github.io/menus-vocab/menus.json#grains"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#meat">
+    <skos:prefLabel>Meat</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#menuvocab">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="https://edsu.github.io/menus-vocab/menus.json#foods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#animals">
+    <skos:narrower rdf:resource="https://edsu.github.io/menus-vocab/menus.json#seafood"/>
+    <skos:prefLabel>Animals</skos:prefLabel>
+    <skos:narrower rdf:resource="https://edsu.github.io/menus-vocab/menus.json#poultry"/>
+    <skos:narrower rdf:resource="https://edsu.github.io/menus-vocab/menus.json#meat"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#poultry">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>Poultry</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#seafood">
+    <skos:prefLabel>Seafood</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://edsu.github.io/menus-vocab/menus.json#fruits">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>Fruits</skos:prefLabel>
   </rdf:Description>
 </rdf:RDF>
