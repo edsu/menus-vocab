@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "@base": "http://purl.org/menus"
+  },
+  "@id": "#menuvocab",
+  "@type": "skos:ConceptScheme",
+  "title": "Menus Vocabulary",
+  "skos:hasTopConcept": [
+    {
+      "@id": "#foods",
+      "@type": "skos:Concept",
+      "skos:prefLabel": "Foods",
+      "skos:narrower": [
+        {
+          "@id": "#animals",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Animals",
+          "skos:narrower": [
+            {
+              "@id": "#meat",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Meat"
+            },
+            {
+                "@id": "#poultry",
+                "@type": "skos:Concept",
+                "skos:prefLabel": "Poultry"
+            },
+            {
+                "@id": "#seafood",
+                "@type": "skos:Concept",
+                "skos:prefLabel": "Seafood"
+            }
+          ]
+        },
+        {
+          "@id": "#plants",
+          "@type": "skos:Concept",
+          "skos:prefLabel": "Plants",
+          "skos:narrower": [
+            {
+              "@id": "#vegetables",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Vegetables"
+            },
+            {
+              "@id": "#fruits",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Fruits"
+            },
+            {
+              "@id": "#grains",
+              "@type": "skos:Concept",
+              "skos:prefLabel": "Grains"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
